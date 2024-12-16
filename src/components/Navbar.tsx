@@ -1,5 +1,5 @@
 import React from 'react';
-import { Telegram, X } from 'lucide-react';
+import { MessageSquare, Twitter } from 'lucide-react';
 
 const Navbar = () => {
   return (
@@ -14,7 +14,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
           >
-            <Telegram className="w-6 h-6 text-white" />
+            <MessageSquare className="w-6 h-6 text-white" />
           </a>
           <a 
             href="https://x.com/placeholder" 
@@ -22,7 +22,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
           >
-            <X className="w-6 h-6 text-white" />
+            <Twitter className="w-6 h-6 text-white" />
           </a>
         </div>
       </div>
