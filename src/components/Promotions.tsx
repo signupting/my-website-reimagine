@@ -3,7 +3,7 @@ import { Card } from '@/components/ui/card';
 
 const Promotions = () => {
   return (
-    <div className="py-20 px-4 bg-gradient-to-b from-blak-red to-black">
+    <div className="py-20 px-4 bg-[#FF0000]">
       <div className="max-w-7xl mx-auto space-y-16">
         {/* Text Sections */}
         <div className="space-y-8 text-center">
@@ -21,18 +21,18 @@ const Promotions = () => {
 
         {/* Promotional Images */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <Card className="p-6 bg-white/10 backdrop-blur-lg border-white/20 hover:bg-white/20 transition-all duration-300">
+          <Card className="p-6 bg-[#FF0000] border-none">
             <img 
               src="https://tryktqmmjylhzmuibcmi.supabase.co/storage/v1/object/sign/blak-assets/Project%20files/Page%202:%20Telegram.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJibGFrLWFzc2V0cy9Qcm9qZWN0IGZpbGVzL1BhZ2UgMjogVGVsZWdyYW0ucG5nIiwiaWF0IjoxNzM0MzQ1NTAyLCJleHAiOjIwNDk3MDU1MDJ9.iVqGC8EDBKspYGxPExdnMtnA2LalanPQ2pd9UrFiHUQ"
               alt="Telegram Promotion"
-              className="w-full h-auto rounded-lg animate-fade-in"
+              className="w-full max-w-[300px] mx-auto h-auto animate-fade-in"
             />
           </Card>
-          <Card className="p-6 bg-white/10 backdrop-blur-lg border-white/20 hover:bg-white/20 transition-all duration-300">
+          <Card className="p-6 bg-[#FF0000] border-none">
             <img 
               src="https://tryktqmmjylhzmuibcmi.supabase.co/storage/v1/object/sign/blak-assets/Project%20files/Page%202:%20X.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJibGFrLWFzc2V0cy9Qcm9qZWN0IGZpbGVzL1BhZ2UgMjogWC5zdmciLCJpYXQiOjE3MzQzNDU1NDksImV4cCI6MjA0OTcwNTU0OX0.kHDB-D4IqoC79LgGfQ9NOCCvvehVNHjlxIwIzeVqBJ4"
               alt="X Promotion"
-              className="w-full h-auto rounded-lg animate-fade-in"
+              className="w-full max-w-[300px] mx-auto h-auto animate-fade-in"
             />
           </Card>
         </div>
