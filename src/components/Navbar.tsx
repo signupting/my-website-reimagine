@@ -11,7 +11,7 @@ const Navbar = () => {
             href="https://t.me/placeholder" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors transform hover:scale-110 transition-transform duration-200 animate-fade-in"
+            className="p-2 rounded-full bg-white hover:bg-white/90 transition-all duration-300 transform hover:scale-110 animate-float"
           >
             <img 
               src="https://tryktqmmjylhzmuibcmi.supabase.co/storage/v1/object/sign/blak-assets/Project%20files/telegram%20icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJibGFrLWFzc2V0cy9Qcm9qZWN0IGZpbGVzL3RlbGVncmFtIGljb24uc3ZnIiwiaWF0IjoxNzM0MzQ1NjE5LCJleHAiOjIwNDk3MDU2MTl9.off6P32IyKcnmYqOhyJiIJdFMSBpTdi4oKvRpuE70i8" 
@@ -23,7 +23,7 @@ const Navbar = () => {
             href="https://x.com/placeholder" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors transform hover:scale-110 transition-transform duration-200 animate-fade-in"
+            className="p-2 rounded-full bg-white hover:bg-white/90 transition-all duration-300 transform hover:scale-110 animate-float"
           >
             <img 
               src="https://tryktqmmjylhzmuibcmi.supabase.co/storage/v1/object/sign/blak-assets/Project%20files/x%20icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJibGFrLWFzc2V0cy9Qcm9qZWN0IGZpbGVzL3ggaWNvbi5zdmciLCJpYXQiOjE3MzQzNDU2OTAsImV4cCI6MjA0OTcwNTY5MH0.o-5COb3KCE0EENWnF7-Du-mdDrm32cx24qq6IngLOVE" 

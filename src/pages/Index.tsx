@@ -7,12 +7,14 @@ import InnerCircle from '@/components/InnerCircle';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black to-blak-red">
+    <div className="min-h-screen">
       <Navbar />
       <Hero />
-      <Promotions />
-      <BlakLab />
-      <InnerCircle />
+      <div className="bg-[#FF0000]">
+        <Promotions />
+        <BlakLab />
+        <InnerCircle />
+      </div>
     </div>
   );
 };
