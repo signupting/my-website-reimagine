@@ -2,9 +2,9 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-4 py-6 bg-gradient-to-b from-black/50 to-transparent backdrop-blur-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 px-4 py-6 bg-gradient-to-b from-black/50 to-transparent">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <h1 className="text-3xl text-white font-bold">BLAK</h1>
+        <h1 className="text-3xl text-black font-bold">BLAK</h1>
         
         <div className="flex gap-4">
           <a 
