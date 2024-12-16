@@ -1,5 +1,4 @@
 import React from 'react';
-import { MessageSquare, Twitter } from 'lucide-react';
 
 const Navbar = () => {
   return (
@@ -14,7 +13,11 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
           >
-            <MessageSquare className="w-6 h-6 text-white" />
+            <img 
+              src="https://tryktqmmjylhzmuibcmi.supabase.co/storage/v1/object/sign/blak-assets/Project%20files/telegram%20icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJibGFrLWFzc2V0cy9Qcm9qZWN0IGZpbGVzL3RlbGVncmFtIGljb24uc3ZnIiwiaWF0IjoxNzM0MzQ1NjE5LCJleHAiOjIwNDk3MDU2MTl9.off6P32IyKcnmYqOhyJiIJdFMSBpTdi4oKvRpuE70i8" 
+              alt="Telegram"
+              className="w-6 h-6"
+            />
           </a>
           <a 
             href="https://x.com/placeholder" 
@@ -22,7 +25,11 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
           >
-            <Twitter className="w-6 h-6 text-white" />
+            <img 
+              src="https://tryktqmmjylhzmuibcmi.supabase.co/storage/v1/object/sign/blak-assets/Project%20files/x%20icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJibGFrLWFzc2V0cy9Qcm9qZWN0IGZpbGVzL3ggaWNvbi5zdmciLCJpYXQiOjE3MzQzNDU2OTAsImV4cCI6MjA0OTcwNTY5MH0.o-5COb3KCE0EENWnF7-Du-mdDrm32cx24qq6IngLOVE" 
+              alt="X"
+              className="w-6 h-6"
+            />
           </a>
         </div>
       </div>
