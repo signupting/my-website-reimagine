@@ -7,6 +7,7 @@
   src: url('https://tryktqmmjylhzmuibcmi.supabase.co/storage/v1/object/sign/blak-assets/Project%20files/Sawer.otf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJibGFrLWFzc2V0cy9Qcm9qZWN0IGZpbGVzL1Nhd2VyLm90ZiIsImlhdCI6MTczNDM0NTcxMCwiZXhwIjoyMDQ5NzA1NzEwfQ.0DIfXgCzujS9u03cNErcAmAKKHTsxMJh2NsxAekLiR8') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @layer base {
@@ -44,6 +45,17 @@
 
   h1, h2, h3 {
     font-family: 'Sawer', sans-serif;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .bg-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 

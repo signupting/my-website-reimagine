@@ -6,7 +6,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: 'url(https://tryktqmmjylhzmuibcmi.supabase.co/storage/v1/object/sign/blak-assets/Project%20files/Hero%20page%20image.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJibGFrLWFzc2V0cy9Qcm9qZWN0IGZpbGVzL0hlcm8gcGFnZSBpbWFnZS5wbmciLCJpYXQiOjE3MzQzNDUyNjEsImV4cCI6MjA0OTcwNTI2MX0.Ct8gQ3dgXi9ypGqQAw6F8SBrgqZG6wUY1BOvp2H52Hc)'
+          backgroundImage: 'url(https://tryktqmmjylhzmuibcmi.supabase.co/storage/v1/object/sign/blak-assets/Project%20files/Hero%20page.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJibGFrLWFzc2V0cy9Qcm9qZWN0IGZpbGVzL0hlcm8gcGFnZS5wbmciLCJpYXQiOjE3MzQzNDY4MjIsImV4cCI6MjA0OTcwNjgyMn0.lQtCBld0sDdLfntgqYft7sLdgERq1gyDNACaeFcjhMw)'
         }}
       />
       
