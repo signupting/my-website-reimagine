@@ -70,12 +70,9 @@ const BlakLab: React.FC = () => {
   };
 
   return (
-    <section className="py-20 px-4" aria-labelledby="blak-lab-title">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 id="blak-lab-title" className="text-4xl font-bold text-white mb-2">BLAK LAB</h2>
-        <p className="text-white/70 mb-12">Create legendary BLAK MEME's with our AI generator</p>
-
-        <Card className="p-8 bg-white/10 backdrop-blur-lg border-white/20">
+    <section className="py-20 px-4 bg-[#FF3850]" aria-labelledby="blak-lab-title">
+      <div className="max-w-4xl mx-auto">
+        <Card className="p-8 bg-[#FF3850] border-white/20">
           <GeneratorForm
             wordInput={wordInput}
             onInputChange={setWordInput}
@@ -83,6 +80,7 @@ const BlakLab: React.FC = () => {
             onSave={handleSave}
             isLoading={isLoading}
             hasGeneratedImage={!!generatedImage}
+            generatedImage={generatedImage}
           />
 
           {generatedImage && <ImagePreview imageUrl={generatedImage} />}
