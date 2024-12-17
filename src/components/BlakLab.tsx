@@ -27,7 +27,7 @@ const BlakLab = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer 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"
+          "Authorization": "Bearer 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"
         },
         body: JSON.stringify({ inputs: wordInput })
       });
