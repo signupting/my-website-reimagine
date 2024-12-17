@@ -1,7 +1,7 @@
 import React from 'react';
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { WhatsappIcon, Twitter, Send, Instagram, TiktokIcon } from 'lucide-react';
+import { MessageCircle, Twitter, Send, Instagram, Share2 } from 'lucide-react';
 
 interface ShareMenuProps {
   imageUrl: string | null;
@@ -14,7 +14,7 @@ const ShareMenu: React.FC<ShareMenuProps> = ({ imageUrl }) => {
   const shareLinks = [
     {
       name: "WhatsApp",
-      icon: WhatsappIcon,
+      icon: MessageCircle,
       color: "bg-[#25D366] hover:bg-[#20BD5C]",
       url: `https://wa.me/?text=${encodeURIComponent(`${shareText} ${shareUrl}`)}`,
     },
@@ -38,7 +38,7 @@ const ShareMenu: React.FC<ShareMenuProps> = ({ imageUrl }) => {
     },
     {
       name: "TikTok",
-      icon: TiktokIcon,
+      icon: Share2,
       color: "bg-gradient-to-r from-[#00F2EA] to-[#FF0050] hover:opacity-90",
       url: `https://tiktok.com`,
     },
