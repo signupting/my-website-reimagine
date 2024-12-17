@@ -58,16 +58,19 @@ const ShareMenu: React.FC<ShareMenuProps> = ({ imageUrl }) => {
         <div className="space-y-4">
           <h2 className="text-2xl font-bold text-center mb-6">Share Your Legend</h2>
           <div className="space-y-3">
-            {shareLinks.map((platform) => (
-              <Button
-                key={platform.name}
-                className={`w-full text-white ${platform.color} justify-start space-x-2`}
-                onClick={() => window.open(platform.url, '_blank')}
-              >
-                <platform.icon className="h-5 w-5" />
-                <span>Share on {platform.name}</span>
-              </Button>
-            ))}
+            {shareLinks.map((platform) => {
+              const Icon = platform.icon;
+              return (
+                <Button
+                  key={platform.name}
+                  className={`w-full text-white ${platform.color} justify-start space-x-2`}
+                  onClick={() => window.open(platform.url, '_blank')}
+                >
+                  <Icon className="h-5 w-5" />
+                  <span>Share on {platform.name}</span>
+                </Button>
+              );
+            })}
           </div>
           <p className="text-center text-sm mt-4">
             Don't forget to tag <span className="font-bold">#BLAK</span>
