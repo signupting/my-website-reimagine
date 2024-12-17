@@ -5,9 +5,9 @@ import Promotions from '@/components/Promotions';
 import BlakLab from '@/components/BlakLab';
 import InnerCircle from '@/components/InnerCircle';
 
-const Index = () => {
+const Index: React.FC = () => {
   return (
-    <div className="min-h-screen">
+    <main className="min-h-screen">
       <Navbar />
       <Hero />
       <div className="bg-[#FF0000]">
@@ -15,7 +15,7 @@ const Index = () => {
         <BlakLab />
         <InnerCircle />
       </div>
-    </div>
+    </main>
   );
 };
 
